@@ -1,4 +1,4 @@
 # Sudoko_Game
-For Visualiser See code of  visualiser,
+Game is the final Code.
 <br>
-rest application are in development
+Updates re coming soon
