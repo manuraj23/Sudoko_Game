@@ -46,7 +46,7 @@ public class Game {
         JLabel imageLabel = new JLabel();
 
         // Load an image icon (replace with the actual image path)
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\manur\\OneDrive\\Desktop\\Game\\homepage.jpeg");
+        ImageIcon imageIcon = new ImageIcon("C:\\Users\\manur\\OneDrive\\Desktop\\homepage.jpeg");
 
         // Scale the image to fit the frame size
         Image image = imageIcon.getImage();
@@ -81,15 +81,7 @@ public class Game {
             // Create a left panel for the image
             JPanel leftPanel = new JPanel(new BorderLayout());
 
-            // Load the left image
-            ImageIcon leftImageIcon = new ImageIcon("/home/manu-raj/Sudoku_Game/Sudoku-Project/sudoku_homepage.jpg");
-            Image leftImage = leftImageIcon.getImage();
-            Image scaledLeftImage = leftImage.getScaledInstance(800, 600, Image.SCALE_SMOOTH); // Adjust the size as needed
-            leftImageIcon = new ImageIcon(scaledLeftImage);
-            JLabel leftImageLabel = new JLabel(leftImageIcon);
-
-            // Add the image label to the left panel
-            leftPanel.add(leftImageLabel, BorderLayout.CENTER);
+            
 
             // Create a right panel for the buttons
             JPanel rightPanel = new JPanel(new GridBagLayout());
